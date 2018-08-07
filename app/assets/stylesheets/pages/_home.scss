@@ -1,5 +1,6 @@
 // Specific CSS for your home-page
 
+
 .banner {
   color: white;
   text-align: center;
@@ -21,4 +22,31 @@
   color: rgb(255, 255, 255);
   opacity: 0.6;
   margin-bottom: 30px;
+}
+
+.wrapper-green {
+  background: #32908F;
+  color: white;
+  padding: 2em 0;
+}
+.wrapper-grey {
+  background: #EDEFF0;
+  color: #4e4e4e;
+}
+
+.wrapper-blue {
+  background: #B2DDF7;
+  color: #4e4e4e;
+}
+
+.card-white {
+  background: white;
+  padding: 25px;
+  box-shadow: 1px 1px 2px #e7e7e7;
+  border-radius: 10px;
+  margin: 20px 40px;
+}
+#header {
+  color: #828282;
+  padding: 50px;
 }
