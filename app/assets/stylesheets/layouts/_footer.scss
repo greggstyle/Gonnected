@@ -1,8 +1,18 @@
 .footer {
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wrapper-green {
+  background: #32908F;
+  color: white;
 }
 
 .footer-links {
   font-size: 25px;
+}
+
+.footer-quote {
+  font-size: 15px;
+  font-style: italic;
 }
