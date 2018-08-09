@@ -6,12 +6,11 @@ class MessagesController < ApplicationController
 
   def create
     @message = Message.new message_params
+
     if @message.valid?
-      MessageMailer.contact(@message).deliver_now
-      redirect_to new_message_url
-      flash[:notice] = "I have received your message and will get back to you soon!"
+      MessageMailer.contact_me(@message).deliver_now
+      redirect_to new_message_url, notice: "Thanks! I will get back to you shortly"
     else
-      flash[:notice] = "There was an error sending your message. Please try again."
       render :new
     end
   end
@@ -19,7 +18,7 @@ class MessagesController < ApplicationController
   private
 
   def message_params
-    params.require(:message).permit(:name, :email, :phone_number, :body)
+    params.require(:message).permit(:name, :email, :body)
   end
-
 end
+
