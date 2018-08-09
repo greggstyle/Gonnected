@@ -1,0 +1,6 @@
+meta_product_name: "Gonnected"
+meta_title: "Gonnected - International digital consultant"
+meta_description: "Helping leveraging the benefits of digital world for start-ups and large retailers"
+meta_image: "https://res.cloudinary.com/greggstyle/image/upload/v1533649373/Site%20greg/markus-spiske-445253-unsplash.jpg"                       # should exist in `app/assets/images/`
+twitter_account: "@greggstyle"   # required for Twitter Cards
+
