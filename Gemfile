@@ -17,10 +17,11 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 
-gem 'mailgun-ruby', '~>1.1.6'
 gem 'figaro'
 gem 'cloudinary'
-
+gem 'mail_form'
+gem 'google-api-client', '~> 0.23.4'
+gem 'omniauth-google-oauth2'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
