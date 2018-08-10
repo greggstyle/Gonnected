@@ -21,7 +21,7 @@ gem 'figaro'
 gem 'cloudinary'
 gem 'mail_form'
 gem 'google-api-client', '~> 0.23.4'
-gem 'omniauth-google-oauth2'
+gem 'googleauth'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
