@@ -23,6 +23,9 @@ gem 'mail_form'
 gem 'google-api-client', '~> 0.23.4'
 gem 'googleauth'
 
+gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
+
+
 group :development do
   gem 'web-console', '>= 3.3.0'
 end
