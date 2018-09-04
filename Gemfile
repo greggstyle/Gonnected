@@ -22,6 +22,7 @@ gem 'cloudinary'
 gem 'mail_form'
 gem 'google-api-client', '~> 0.23.4'
 gem 'googleauth'
+gem 'scout_apm'
 
 gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 
